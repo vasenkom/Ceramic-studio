@@ -94,3 +94,11 @@
     from {opacity: .4} 
     to {opacity: 1}
   }
+@media screen and (max-width: 650px) {
+    .aboutUs {
+        gap: 25px;
+    }
+    .mySlides img {
+        height: 285px;
+    }
+}
