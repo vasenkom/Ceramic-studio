@@ -7,17 +7,21 @@
 .header {
     margin-top: 15px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     width: 95%;
     margin-left: auto;
     margin-right: auto;
 }
+.logo {
+    font-size: 25px;
+}
 .info {
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 17px;
     align-items: center;
 }
 .info a {
@@ -26,5 +30,6 @@
     color: black;
 }
 .info a:hover {
-    border-bottom: 1px solid black;
+    background-color: rgb(249, 152, 141);
+    border-radius: 7px;
 }
