@@ -13,6 +13,7 @@
     width: 95%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
 }
 .logo {
     font-size: 25px;
@@ -32,4 +33,17 @@
 .info a:hover {
     background-color: rgb(249, 152, 141);
     border-radius: 7px;
+}
+.aboutUs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.description {
+    text-align: left;
+    margin-left: 10px;
+}
+.description p {
+    margin-top: 20px;
 }
