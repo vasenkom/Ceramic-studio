@@ -117,10 +117,60 @@
     margin: 5px
 }
 
-.course:hover {
+/*PopUp Info Message*/
+.infoButton {
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    background-color: transparent;
     border: 2px solid black;
     border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
 }
+.infoButton:hover, .popup-content button:hover {
+    background-color: rgb(249, 152, 141);
+    border-radius: 10px;
+}
+.myPopup {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+}
+.popup-content {
+    background-color: white;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888888;
+    width: 40%;
+    font-weight: bolder;
+    text-align: center;
+}
+.popup-content h2{
+   margin-bottom: 15px;
+}
+.popup-content button {
+    margin-top: 15px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.show {
+    display: block;
+}
+
 .course p, .course h4 {
     text-align: center;
     padding: 5px;
