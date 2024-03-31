@@ -4,8 +4,10 @@
     padding: 0;
     font-family: "Work Sans", sans-serif;
 }
+
+/*header*/
 .header {
-    margin-top: 15px;
+    margin-top: 18px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,7 +15,7 @@
     width: 95%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 40px;
+    margin-bottom: 55px;
 }
 .logo {
     font-size: 25px;
@@ -34,17 +36,21 @@
     background-color: rgb(249, 152, 141);
     border-radius: 7px;
 }
+/*Main part*/
 .main {
     width: 95%;
     margin-left: auto;
     margin-right: auto;
 }
+
+/*About Us*/
 .aboutUs {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 50px;
+    margin-bottom: 20px;
 
 }
 .description {
@@ -85,7 +91,7 @@
     background-color: #717171;
 }
   
-/* Fading animation */
+/* Fading animation for slideshow */
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;
@@ -102,13 +108,39 @@
     align-items: center;
     flex-direction: column;
 }
+.workshops {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.course {
+    padding: 10px;
+    margin: 5px
+}
+
+.course:hover {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.course p, .course h4 {
+    text-align: center;
+    padding: 5px;
+}
+.course img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
 .courseContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    gap: 40px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 10px;
+    margin: 5px;
 }
-
 @media screen and (max-width: 650px) {
     .aboutUs {
         gap: 25px;
