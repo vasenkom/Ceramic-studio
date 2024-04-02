@@ -19,15 +19,17 @@ function showSlides() {
 }
 
 let infoButton = document.querySelector('.infoButton');
-let myPopUp = document.querySelector('.myPopup');
+let myPopUp = document.querySelector('#myPopup');
 let closeButton = document.querySelector('.closePopup');
 
-infoButton.addEventListener('click', function() {
+function show() {
     myPopUp.classList.add('show');
-});
-closeButton.addEventListener('click', function() {
-    myPopUp.classList.remove('show');
-});
+};
+
+function closePopUp() {
+    myPopUp.classList.remove("show");
+}
+
 window.addEventListener('click', function (event) {
     if (event.target == myPopUp) {
         myPopUp.classList.remove("show");
