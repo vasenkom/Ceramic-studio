@@ -290,7 +290,27 @@
 .contact-container p {
     padding: 15px;
 }
-
+/*Footer*/
+.footer {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff0bed6;
+}
+.logo-footer h3{
+    font-size: 20px;
+}
+.nav-footer a {
+    padding: 5px 6px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid transparent;
+}
+.nav-footer a:hover {
+    border-bottom: 1px solid black;
+}
 @media screen and (max-width: 770px) {
     .aboutUs {
         gap: 25px;
