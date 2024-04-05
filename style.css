@@ -200,7 +200,7 @@
 .shop {
     display: flex;
     flex-direction: column;
-    padding: 18px;
+    padding-top: 30px;
     background-color: #FFDAC7;
 }
 .shop-header {
@@ -263,6 +263,7 @@
     max-height: 300px;
     border-bottom: 1px solid black;
 }
+/*Contact section*/
 @media screen and (max-width: 650px) {
     .aboutUs {
         gap: 25px;
