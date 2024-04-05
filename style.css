@@ -250,6 +250,7 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 .product-info {
     padding: 5px;
@@ -270,9 +271,23 @@
 .contact {
     padding: 30px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 40px;
     justify-content: center;
     align-items: center;
+    margin: 5px 0;
+}
+.left-contact img {
+    width: 440px;
+    height: auto;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+.right-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 .contact h1 {
     margin-bottom: 15px;
@@ -280,13 +295,7 @@
 .contact p {
     padding: 5px;
 }
-.contact-container {
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-    justify-content: center;
-    align-items: center;
-}
+
 .contact-container p {
     padding: 15px;
 }
