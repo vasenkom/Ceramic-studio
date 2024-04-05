@@ -32,9 +32,10 @@
     text-decoration: none;
     padding: 5px;
     color: black;
+    border-bottom: 1px solid transparent;
 }
 .info a:hover {
-    background-color: #d1f2f8d5;
+    border-bottom: 1px solid black;
 }
 /*Main part*/
 .main {
@@ -73,6 +74,7 @@
 .mySlides img {
     height: 350px;
     margin-bottom: 10px;
+    border: 1px solid black;
 }
 .slideshow {
     position: relative;
@@ -80,6 +82,7 @@
     width: 60%
 }
 .dot {
+    
     height: 15px;
     width: 15px;
     margin: 0 2px;
@@ -131,7 +134,7 @@
     margin-top: 10px;
 }
 .infoButton:hover, .popup-content button:hover {
-    background-color: #d1f2f8d5;
+    background-color: #f1f3f3ab;
 }
 .myPopup {
     position: fixed;
@@ -264,12 +267,50 @@
     border-bottom: 1px solid black;
 }
 /*Contact section*/
-@media screen and (max-width: 650px) {
+.contact {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact h1 {
+    margin-bottom: 15px;
+}
+.contact p {
+    padding: 5px;
+}
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.contact-container p {
+    padding: 15px;
+}
+
+@media screen and (max-width: 770px) {
     .aboutUs {
         gap: 25px;
     }
     .mySlides img {
         height: 285px;
+    }
+    .product-container {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .product-card {
+        width: 250px;
+    }
+    .plate img {
+        min-height: 90px;
+        border-bottom: 1px solid black;
     }
 }
 
