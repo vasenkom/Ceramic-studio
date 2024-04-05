@@ -7,7 +7,6 @@
 
 /*header*/
 .header {
-    margin-top: 18px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,7 +14,8 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px;
+    padding-bottom: 18px;
+    padding-top: 20px;
     
 }
 .logo {
@@ -34,7 +34,7 @@
     color: black;
 }
 .info a:hover {
-    background-color: rgba(249, 152, 141, 0.797);
+    background-color: #FFDAC7;
     border-radius: 7px;
 }
 /*Main part*/
@@ -47,14 +47,14 @@
 /*About Us*/
 .aboutUs {
     padding: 35px;
-    background-color: rgba(82, 173, 121, 0.436);
+    background-color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 50px;
     margin-bottom: 20px;
-
+    background-color: #BABD8E;
 }
 .description {
     display: flex;
@@ -84,14 +84,14 @@
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: #92908f;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
 }
   
 .active {
-    background-color: #717171;
+    background-color: #424140;
 }
   
 /* Fading animation for slideshow */
@@ -113,11 +113,11 @@
 }
 .workshops {
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .course {
     padding: 10px;
-    margin: 5px
+    margin: 5px;
 }
 
 /*PopUp Info Message*/
@@ -133,7 +133,7 @@
     margin-top: 10px;
 }
 .infoButton:hover, .popup-content button:hover {
-    background-color: rgba(249, 152, 141, 0.797);
+    background-color: #FFDAC7;
     border-radius: 10px;
 }
 .myPopup {
@@ -156,9 +156,7 @@
     font-weight: bolder;
     text-align: center;
 }
-.popup-content h2{
-   margin-bottom: 15px;
-}
+
 .popup-content button {
     margin-top: 15px;
     display: inline-block;
@@ -169,12 +167,14 @@
     border: 1px solid black;
     border-radius: 10px;
     cursor: pointer;
-    
 }
 .show {
     display: block;
 }
 
+.course {
+    padding: 10px 20px;
+}
 .course p, .course h4 {
     text-align: center;
     padding: 5px;
