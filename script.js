@@ -18,16 +18,32 @@ function showSlides() {
     setTimeout(showSlides, 5000);
 }
 
+//PopUp buttons
 let infoButton = document.querySelector('.infoButton');
-let myPopUp = document.querySelector('#myPopup');
+let myPopUp1 = document.querySelector('#myPopup1');
+let myPopUp2 = document.querySelector('#myPopup2');
+let myPopUp3 = document.querySelector('#myPopup3');
 let closeButton = document.querySelector('.closePopup');
 
-function show() {
-    myPopUp.classList.add('show');
+function show1() {
+    myPopUp1.classList.add('show');
+};
+function show2() {
+    myPopUp2.classList.add('show');
+};
+function show3() {
+    myPopUp3.classList.add('show');
 };
 
-function closePopUp() {
-    myPopUp.classList.remove("show");
+
+function closePopUp1() {
+    myPopUp1.classList.remove("show");
+}
+function closePopUp2() {
+    myPopUp2.classList.remove("show");
+}
+function closePopUp3() {
+    myPopUp3.classList.remove("show");
 }
 
 window.addEventListener('click', function (event) {

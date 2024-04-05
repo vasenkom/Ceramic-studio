@@ -12,14 +12,14 @@
     <div class="header">
         <div class="logo"><h1>TerraForm Pottery</h1></div>
         <div class="info">
-            <a href="#">About</a>
-            <a href="#">Courses</a>
-            <a href="#">Shop</a>
+            <a href="#aboutUs">About</a>
+            <a href="#courses">Courses</a>
+            <a href="#shop">Shop</a>
             <a href="#">Contact</a>
         </div>
     </div>
     <div class="main">
-        <div class="aboutUs">
+        <div class="aboutUs" id="aboutUs">
             <div class="description">
                 <h1>About us</h1>
                 <p>At TerraForm Pottery, indulge in the artistry of ceramics 
@@ -52,7 +52,7 @@
                   </div>
             </div>
         </div>
-        <div class="workshops">
+        <div class="workshops" id="courses">
             <div class="workshopsHeader"><h1>Courses</h1></div>
             <div class="courseContainer">
                 <div class="course">
@@ -60,18 +60,18 @@
                     <h4>Beginner Pottery Class</h4>
                     <p>2 hours</p>
                     <p>Price: 1500 Kc</p>
-                    <button id="infoButton" class="infoButton" onclick="show()">Press for more info</button>
-                    <div id="myPopup" class="myPopup">
+                    <button id="infoButton" class="infoButton" onclick="show1()">Press for more info</button>
+                    <div id="myPopup1" class="myPopup">
                         <div class="popup-content">
                             <h2>Beginner Pottery Class</h2>
                             <p>Tuesdays or Wednesdays: 5-7 pm or 7:15-9:15 pm</p>
                             <p>1 Mug or Small Bowl: 2 hours building</p>
-                            <p>Price: 1700 Kc / Workshop</p>
+                            <p>Price: 1500 Kc / Workshop</p>
                             <p>Reservation: @TerraFormPottery or +420773111222</p>
                             <p>Beginners Welcome: No previous experience needed</p>
                             <p>All tools, glazes and firing included</p>
                             <p>English and Czech speaking lector</p>
-                            <button id="closePopup" class="closePopup" onclick="closePopUp()">Close</button>
+                            <button id="closePopup" class="closePopup1" onclick="closePopUp1()">Close</button>
                         </div>
                     </div>
                 </div>
@@ -80,8 +80,8 @@
                     <h4>2 Week Pottery Class</h4>
                     <p>2 hours per Week</p>
                     <p>Price: 3000 Kc</p>
-                    <button id="infoButton" class="infoButton" onclick="show()">Press for more info</button>
-                    <div id="myPopup" class="myPopup">
+                    <button id="infoButton" class="infoButton" onclick="show2()">Press for more info</button>
+                    <div id="myPopup2" class="myPopup">
                         <div class="popup-content">
                             <h2>Beginner Pottery Class</h2>
                             <p>Tuesdays or Wednesdays: 5-7 pm or 7:15-9:15 pm</p>
@@ -91,7 +91,7 @@
                             <p>Beginners Welcome: No previous experience needed</p>
                             <p>All tools, glazes and firing included</p>
                             <p>English and Czech speaking lector</p>
-                            <button id="closePopup" class="closePopup" onclick="closePopUp()">Close</button>
+                            <button id="closePopup" class="closePopup2" onclick="closePopUp2()">Close</button>
                         </div>
                     </div>
                 </div>
@@ -100,8 +100,8 @@
                     <h4>Private Pottery Class</h4>
                     <p>2 hours</p>
                     <p>Price: 2000 Kc</p>
-                    <button id="infoButton" class="infoButton" onclick="show()">Press for more info</button>
-                    <div id="myPopup" class="myPopup">
+                    <button id="infoButton" class="infoButton" onclick="show3()">Press for more info</button>
+                    <div id="myPopup3" class="myPopup">
                         <div class="popup-content">
                             <h2>Beginner Pottery Class</h2>
                             <p>Mondays or Saturdays: 2-4 pm or 4:15-6:15 pm</p>
@@ -111,21 +111,22 @@
                             <p>Beginners Welcome: No previous experience needed</p>
                             <p>All tools, glazes and firing included</p>
                             <p>English and Czech speaking lector</p>
-                            <button id="closePopup" class="closePopup" onclick="closePopUp()">Close</button>
+                            <button id="closePopup" class="closePopup3" onclick="closePopUp3()">Close</button>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="infoCourse"><h4>For all reservation please dm @TerraFormPottery or call +420773111222</h4></div>
         </div>
-        <div class="shop">
+        <div class="shop" id="shop">
             <div class="shop-header">
                 <div class="top">
                     <h1>Shop</h1>
                     <div class="top-buttons">
-                        <button onclick="showAll()">All</button>
-                        <button onclick="showCups()">Cups</button>
-                        <button onclick="showPlates()">Plates</button></div>
+                        <a href="#">All</a>
+                        <a href="#">Cups</a>
+                        <a href="#">Plates</a>
+                    </div>
                 </div>
                 <div class="bottom">
                     <p>Check our beautiful products</p>

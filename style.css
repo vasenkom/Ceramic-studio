@@ -220,8 +220,8 @@
     flex-direction: row;
     gap: 10px;
 }
-.top-buttons button {
-    text-align: center;
+.top-buttons a {
+    
     text-decoration: none;
     padding: 7px 10px;
     color: black;
@@ -231,7 +231,7 @@
     font-size: 16px;
     cursor: pointer;
 }
-.top-buttons button:hover {
+.top-buttons a:hover {
     background-color: #BABD8E;
 }
 .product-container {
