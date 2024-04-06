@@ -13,6 +13,10 @@ Check out the [demo](https://raw.githack.com/vasenkom/Ceramic-studio/main/index.
 - **Sections**: The homepage is divided into several sections including About, Courses, Shop, and Contact, providing visitors with essential information about TerraForm's offerings.
 - **Responsive Design**: The webpage is designed to be responsive, ensuring a seamless experience across various devices and screen sizes.
 
+## Note
+
+The mobile version of the website is currently not available. Future updates may include mobile responsiveness.
+
 ## Repository Structure
 
 - **index.html**: The main HTML file containing the structure and content of the homepage.
