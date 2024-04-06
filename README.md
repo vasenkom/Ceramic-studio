@@ -2,6 +2,10 @@
 
 Welcome to the TerraForm Ceramic Studio homepage repository! This project aims to create a minimalistic yet colorful home page for TerraForm ceramic studio.
 
+## Demo
+
+Check out the [demo](https://raw.githack.com/vasenkom/Ceramic-studio/main/index.html) to see the homepage in action.
+
 ## Features
 
 - **Minimalistic Design**: The homepage features a clean and simple design, ensuring easy navigation for visitors.
